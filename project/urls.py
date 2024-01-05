@@ -12,4 +12,5 @@ urlpatterns = [
     path('fbv-pk/<int:pk>', views.FBV_pk),
     path('cbv/', views.CBV_LIST.as_view()),
     path('cbv/<int:pk>', views.CBV_pk.as_view()),
+    
 ]
