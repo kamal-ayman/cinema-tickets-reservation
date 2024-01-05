@@ -14,3 +14,4 @@ urlpatterns = [
     path('cbv/<int:pk>', views.CBV_pk.as_view()),   
 ]
 
+
